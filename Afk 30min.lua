@@ -1,5 +1,5 @@
 setfpscap(7)
-local afkTime = 5
+local afkTime = 30 * 60
 
 game.Players.CharacterAdded:Connect(function(character)
   local player = character.Parent
